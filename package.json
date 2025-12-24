@@ -1,7 +1,22 @@
 {
   "name": "intent-options-trader",
   "version": "0.1.0",
-  "private": true,
+  "description": "An open-source web application for trading options on Lyra/Derive mainnet using natural language intents",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yashhsm/intent-options-trader.git"
+  },
+  "keywords": [
+    "options-trading",
+    "lyra",
+    "derive",
+    "claude",
+    "ai-agent",
+    "nextjs",
+    "defi"
+  ],
+  "author": "Intent Options Trader Contributors",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -1,6 +1,8 @@
 # Intent Options Trader
 
-A private MVP web app for trading options on Lyra/Derive mainnet using natural language intents. Built with Next.js 14, Claude Agent SDK, and Lyra/Derive APIs.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+An open-source web application for trading options on Lyra/Derive mainnet using natural language intents. Built with Next.js 14, Claude Agent SDK, and Lyra/Derive APIs.
 
 ## Features
 
@@ -250,8 +252,28 @@ Click the "Debug" button (bottom-right) to see:
 
 - **Rate Limits**: Claude API has 30k tokens/minute limit. The agent may hit this with many iterations.
 - **Liquidity**: Many options on Lyra have zero bid/ask, so the agent may fall back to mark prices.
-- **Single User**: This is a private MVP, not designed for multi-user scenarios.
+- **Single User**: Currently designed for single-user scenarios.
+
+## Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+### How to Contribute
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
 
 ## License
 
-Private/Personal Use Only
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Built with [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk) by Anthropic
+- Options trading powered by [Lyra/Derive](https://derive.xyz)
+- UI components from [shadcn/ui](https://ui.shadcn.com)
